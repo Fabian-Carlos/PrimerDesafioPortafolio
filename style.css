@@ -240,7 +240,7 @@ section.about{
 .about__container img{
     width: 140px;
     height: 52px;
-    filter: invert(0.9) sepia(0) hue-rotate(20deg) saturate(100%);
+    
 }
 
 /***Seccion Skills ***********************************/
@@ -982,11 +982,16 @@ gap:32px;
  }
  .formcontato__esquerda{
     display:block;
+    width:40%;
+}
+.formcontato__img{
+    width: 100%;
+    max-width:464px;
 }
 .formcontato__text{
-    flex-grow: 1;
+    flex-shrink: 1;
     padding-left: 16px;
-  
+  width:60%;
 }
 .formcontato__title{
     font-size: 32px;
